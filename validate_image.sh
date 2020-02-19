@@ -78,10 +78,6 @@ check_image_input_type () {
 
 get_image_id_from_name () {
 	docker_command="$DOCKER images $1"
-	docker_check_images="$DOCKER images"
-	docker_images=$($docker_check_images)
-	echo ${docker_images}
-	echo ${docker_check_images}
 	echo ${docker_command}
 	IMAGE_ID=$($docker_command | head -2 | tail -1 | awk '{print $3}')
 	echo ${IMAGE_ID}
