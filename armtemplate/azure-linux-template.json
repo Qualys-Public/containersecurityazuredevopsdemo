@@ -259,7 +259,7 @@
         },
         "networkInterface": {
             "type": "string",
-            "value": "[reference(concat(variables('nicName'))).ipConfigurations[0].properties.privateIPAddress]"
+            "value": "[reference(concat(variables('networkInterfaceName'))).ipConfigurations[0].properties.privateIPAddress]"
         }
     }
 }
