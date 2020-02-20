@@ -256,6 +256,10 @@
         "sshCommand": {
             "type": "string",
             "value": "[concat('ssh ', parameters('adminUsername'), '@', reference(variables('publicIPAddressName')).dnsSettings.fqdn)]"
+        },
+        "networkInterface": {
+            "type": "string",
+            "value": "[reference(concat(variables('nicName'))).ipConfigurations[0].properties.privateIPAddress]"
         }
     }
 }
