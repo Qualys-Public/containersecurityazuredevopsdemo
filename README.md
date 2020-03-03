@@ -35,10 +35,11 @@ The template file has these 9 variables.
 **Task 4:** Edit the Build Pipeline
 
   * Select the **Build an image**
-Parameter|Value|Notes|
----------|-----|-----|
-Container Registry Type | **Azure Container Registry** | **Azure Container Registry** to connect to it by using an Azure Service Connection |
-Azure subscription | a service connection | select the Azure subscription from the list and click 'Authorize'. |
+  
+  Parameter|Value|Notes|
+  ---------|-----|-----|
+  Container Registry Type | **Azure Container Registry** | **Azure Container Registry** to connect to it by using an Azure Service Connection |
+  Azure subscription | a service connection | select the Azure subscription from the list and click 'Authorize'. |
 
 **Task 5:** Edit the release Pipeline
 
