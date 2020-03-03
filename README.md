@@ -1,5 +1,5 @@
 # ContainerSecurityAzureDevOpsDemo
-## Demo to showcase scanning of images during build pipeline before being pushed to the registry for deployment in Azure Web Apps and Scanning of Web Apps
+### Demo to showcase scanning of images during build pipeline before being pushed to the registry for deployment in Azure Web Apps and Scanning of Web Apps
 
 ## License
 _**THIS SCRIPT IS PROVIDED TO YOU "AS IS."  TO THE EXTENT PERMITTED BY LAW, QUALYS HEREBY DISCLAIMS ALL WARRANTIES AND LIABILITY FOR THE PROVISION OR USE OF THIS SCRIPT.  IN NO EVENT SHALL THESE SCRIPTS BE DEEMED TO BE CLOUD SERVICES AS PROVIDED BY QUALYS**_
