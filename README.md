@@ -10,7 +10,7 @@ The aim of this repository is to build a solution which will help you understand
 ## **Prerequisites:**
   1. [**An Azure Container Registry**](/examples/azurecontainerregistry.md)
   2. [**An Azure APP service with Containers**](/examples/azureappservice.md)
-  3. A Qualys Subscription
+  3. [**A Qualys Subscription**](https://www.qualys.com/free-trial/)
  
 ## Usage
 **Task 1:** Use the Azure DevOps Demo Generator to provision the project to your Azure DevOps Org. Use the below GitHub link as source template
@@ -29,13 +29,16 @@ The template file has these 9 variables.
   * **SENSOR_CUSTOMER_ID:** "Qualys subscription’s customerId"
   * **WEBAPP_PASSWORD:** "Password for the Webapp"
   * **WEBAPP_USERNAME:** "username for the Webapp"
-  * **SENSOR_LOCATION:** "Path to download the sensor. Eg: https://<<storage-account>>.blob.core.windows.net/<<container-name>>/QualysContainerSensor.tar"
+  * **SENSOR_LOCATION:** "Path to download the sensor"
+  Eg: https://<<storage-account>>.blob.core.windows.net/<<container-name>>/QualysContainerSensor.tar
   
 **Task 4:** Edit the Build Pipeline
 
+  * Select the **Build an image**
 Parameter|Value|Notes|
 ---------|-----|-----|
-Options|-DskipITs --settings ./maven/settings.xml|Skips integration tests during the build
+Container Registry Type|**Azure Container Registry**|**Azure Container Registry** to connect to it by using an Azure Service Connection|
+Azure subscription|a service connection|select the Azure subscription from the list and click 'Authorize'.|
 
 **Task 5:** Edit the release Pipeline
 
