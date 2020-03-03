@@ -16,8 +16,8 @@ The aim of this repository is to build a solution which will help you understand
 **Task 1:** Use the [Azure DevOps Demo Generator](https://azuredevopsdemogenerator.azurewebsites.net/) to provision the project to your Azure DevOps Org. Use the below GitHub link as source template
 _https://raw.githubusercontent.com/mkhanal1/containersecurityazuredevopsdemo/master/containersecuritydemo.zip_
 
-![Image1](/images/1.png?raw=true)
-![Image2](/images/2.png?raw=true)
+  ![Image1](/images/1.png?raw=true)
+  ![Image2](/images/2.png?raw=true)
 
 **Task 2:** Import this repository to Azure GIT
 
@@ -50,7 +50,7 @@ The template file has these 9 variables.
     Azure subscription | Name of service connection | select the Azure subscription from the list and click 'Authorize'. |
     Azure Container Registry | Name of the registry | The container image will be built and pushed to this container registry in the selected Azure Subscription |
   
-  ![Image4](/images/4.png?raw=true)
+    ![Image4](/images/4.png?raw=true)
   
   * Select the Task **Push an image**
   
