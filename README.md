@@ -7,17 +7,10 @@ _**THIS SCRIPT IS PROVIDED TO YOU "AS IS."  TO THE EXTENT PERMITTED BY LAW, QUAL
 ## Description
 The aim of this repository is to build a solution which will help you understand how Qualys CS and WAS can be used to detect vulnerabilities in the Container Image and Web applications built from it.
 
-This repository contains ==>
-
-  1. [**Main python program**](/gcp-cv-connector.py) 
-  2. [**Configuration file**](/example/config.yml)
-  3. [**CSV with list of projectids**](/example/gcp-projectids.csv)
-  4. [**Demo key**](/example/demokey.json) 
-
-## Deployment Options
-    **Prerequisites:**(A service account with required roles) ([An example](/example/prerequisite.md))
+## **Prerequisites:**
+  1. [**An Azure Container Registry**](/examples/azurecontainerregistry.md)
+  2. [**An Azure APP service with Containers**](/examples/azureappservice.md)
  
 ## Usage
 
-#### Get started 
 
