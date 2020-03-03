@@ -32,7 +32,8 @@ The template file has these 9 variables.
   * **WEBAPP_PASSWORD:** "Password for the Webapp"
   * **WEBAPP_USERNAME:** "username for the Webapp"
   * **SENSOR_LOCATION:** "Path to download the sensor"
-  Eg: https://{storage-account}.blob.core.windows.net/{container-name}/QualysContainerSensor.tar
+  
+  Eg: _https://{storage-account}.blob.core.windows.net/{container-name}/QualysContainerSensor.tar_
   
   
 **Task 4:** Edit the Build Pipeline
