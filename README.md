@@ -33,8 +33,8 @@ The template file has these 9 variables.
   
 **Task 4:** Edit the Build Pipeline
 
-|Parameter|Value|Notes|
-|Options|-DskipITs --settings ./maven/settings.xml|Skips integration tests during the build
+Parameter|Value|Notes|
+Options|-DskipITs --settings ./maven/settings.xml|Skips integration tests during the build
 
 **Task 5:** Edit the release Pipeline
 
