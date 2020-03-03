@@ -20,12 +20,13 @@ _https://raw.githubusercontent.com/mkhanal1/containersecurityazuredevopsdemo/mas
 
 ### Task 3: Edit your pipeline variables in Variable Groups
 The template file has these 9 variables.
-  QUALYS_API_SERVER:
-  QUALYS_PASSWORD:
-  QUALYS_USERNAME:
-  QUALYS_WAS_PROFILEID:
-  SENSOR_ACTIVATION_ID:
-  SENSOR_CUSTOMER_ID:
-  WEBAPP_PASSWORD:
-  WEBAPP_USERNAME:
-  SENSOR_LOCATION:
+
+  1. **QUALYS_API_SERVER:**
+  2. **QUALYS_PASSWORD:**
+  3. **QUALYS_USERNAME:**
+  4. **QUALYS_WAS_PROFILEID:**
+  5. **SENSOR_ACTIVATION_ID:**
+  6. **SENSOR_CUSTOMER_ID:**
+  7. **WEBAPP_PASSWORD:**
+  8. **WEBAPP_USERNAME:**
+  9. **SENSOR_LOCATION:**
