@@ -21,12 +21,22 @@ _https://raw.githubusercontent.com/mkhanal1/containersecurityazuredevopsdemo/mas
 **Task 3:** Edit your pipeline variables in Variable Groups
 The template file has these 9 variables.
 
-  **1. QUALYS_API_SERVER:**
-  **2. QUALYS_PASSWORD:**
-  **3. QUALYS_USERNAME:**
-  **4. QUALYS_WAS_PROFILEID:**
-  **5. SENSOR_ACTIVATION_ID:**
-  **6. SENSOR_CUSTOMER_ID:**
-  **7. WEBAPP_PASSWORD:**
-  **8. WEBAPP_USERNAME:**
-  **9. SENSOR_LOCATION:**
+  1. **QUALYS_API_SERVER:** 
+  2. **QUALYS_PASSWORD:**
+  3. **QUALYS_USERNAME:**
+  4. **QUALYS_WAS_PROFILEID:**
+  5. **SENSOR_ACTIVATION_ID:**
+  6. **SENSOR_CUSTOMER_ID:**
+  7. **WEBAPP_PASSWORD:**
+  8. **WEBAPP_USERNAME:**
+  9. **SENSOR_LOCATION:**
+  
+**Task 4:** Edit the Build Pipeline
+
+|Parameter|Value|Notes|
+|Options|-DskipITs --settings ./maven/settings.xml|Skips integration tests during the build
+
+**Task 5:** Edit the release Pipeline
+
+|Parameter|Value|Notes|
+|Options|-DskipITs --settings ./maven/settings.xml|Skips integration tests during the build
