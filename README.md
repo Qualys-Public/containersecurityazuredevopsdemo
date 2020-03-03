@@ -16,7 +16,9 @@ The aim of this repository is to build a solution which will help you understand
 **Task 1:** Use the Azure DevOps Demo Generator to provision the project to your Azure DevOps Org. Use the below GitHub link as source template
 _https://raw.githubusercontent.com/mkhanal1/containersecurityazuredevopsdemo/master/containersecuritydemo.zip_
 
+
 **Task 2:** Import this repository to Azure GIT
+
 
 **Task 3:** Edit your pipeline variables in Variable Groups
 The template file has these 9 variables.
@@ -32,6 +34,7 @@ The template file has these 9 variables.
   * **SENSOR_LOCATION:** "Path to download the sensor"
   Eg: https://<<storage-account>>.blob.core.windows.net/<<container-name>>/QualysContainerSensor.tar
   
+  
 **Task 4:** Edit the Build Pipeline
 
   * Select the Task **Build an image** and edit the parameters
@@ -45,6 +48,7 @@ The template file has these 9 variables.
   * Select the Task **Push an image**
   
     Use the same parameters as described in Task "Build an image"
+    
 
 **Task 5:** Edit the release Pipeline
 
