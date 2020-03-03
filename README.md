@@ -16,8 +16,8 @@ The aim of this repository is to build a solution which will help you understand
 **Task 1:** Use the [Azure DevOps Demo Generator](https://azuredevopsdemogenerator.azurewebsites.net/) to provision the project to your Azure DevOps Org. Use the below GitHub link as source template
 _https://raw.githubusercontent.com/mkhanal1/containersecurityazuredevopsdemo/master/containersecuritydemo.zip_
 
-![Image1](/example/1.png?raw=true)
-![Image2](/example/2.png?raw=true)
+![Image1](/images/1.png?raw=true)
+![Image2](/images/2.png?raw=true)
 
 **Task 2:** Import this repository to Azure GIT
 
