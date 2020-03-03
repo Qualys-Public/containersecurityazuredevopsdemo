@@ -8,8 +8,8 @@ _**THIS SCRIPT IS PROVIDED TO YOU "AS IS."  TO THE EXTENT PERMITTED BY LAW, QUAL
 The aim of this repository is to build a solution which will help you understand how Qualys CS and WAS can be used to detect vulnerabilities in the Container Image and Web applications built from it.
 
 ## **Prerequisites:**
-  1. [**An Azure Container Registry**](/examples/azurecontainerregistry.md)
-  2. [**An Azure APP service with Containers**](/examples/azureappservice.md)
+  1. [**An Azure Container Registry**](/prerequisite/azurecontainerregistry.md)
+  2. [**An Azure APP service with Containers**](/prerequisite/azureappservice.md)
   3. [**A Qualys Subscription**](https://www.qualys.com/free-trial/)
  
 ## Usage
