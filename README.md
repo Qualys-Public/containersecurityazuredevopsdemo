@@ -13,7 +13,7 @@ The aim of this repository is to build a solution which will help you understand
   3. [**A Qualys Subscription**](https://www.qualys.com/free-trial/)
  
 ## Usage
-**Task 1:** Use the Azure DevOps Demo Generator to provision the project to your Azure DevOps Org. Use the below GitHub link as source template
+**Task 1:** Use the [Azure DevOps Demo Generator](https://azuredevopsdemogenerator.azurewebsites.net/) to provision the project to your Azure DevOps Org. Use the below GitHub link as source template
 _https://raw.githubusercontent.com/mkhanal1/containersecurityazuredevopsdemo/master/containersecuritydemo.zip_
 
 
