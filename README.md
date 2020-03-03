@@ -13,20 +13,20 @@ The aim of this repository is to build a solution which will help you understand
   3. A Qualys Subscription
  
 ## Usage
-### Task 1: Use the Azure DevOps Demo Generator to provision the project to your Azure DevOps Org. Use the below GitHub link as source template
+**Task 1:** Use the Azure DevOps Demo Generator to provision the project to your Azure DevOps Org. Use the below GitHub link as source template
 _https://raw.githubusercontent.com/mkhanal1/containersecurityazuredevopsdemo/master/containersecuritydemo.zip_
 
-### Task 2: Import this repository to Azure GIT
+**Task 2:** Import this repository to Azure GIT
 
-### Task 3: Edit your pipeline variables in Variable Groups
+**Task 3:** Edit your pipeline variables in Variable Groups
 The template file has these 9 variables.
 
-  1. **QUALYS_API_SERVER:**
-  2. **QUALYS_PASSWORD:**
-  3. **QUALYS_USERNAME:**
-  4. **QUALYS_WAS_PROFILEID:**
-  5. **SENSOR_ACTIVATION_ID:**
-  6. **SENSOR_CUSTOMER_ID:**
-  7. **WEBAPP_PASSWORD:**
-  8. **WEBAPP_USERNAME:**
-  9. **SENSOR_LOCATION:**
+  **1. QUALYS_API_SERVER:**
+  **2. QUALYS_PASSWORD:**
+  **3. QUALYS_USERNAME:**
+  **4. QUALYS_WAS_PROFILEID:**
+  **5. SENSOR_ACTIVATION_ID:**
+  **6. SENSOR_CUSTOMER_ID:**
+  **7. WEBAPP_PASSWORD:**
+  **8. WEBAPP_USERNAME:**
+  **9. SENSOR_LOCATION:**
