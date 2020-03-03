@@ -10,7 +10,22 @@ The aim of this repository is to build a solution which will help you understand
 ## **Prerequisites:**
   1. [**An Azure Container Registry**](/examples/azurecontainerregistry.md)
   2. [**An Azure APP service with Containers**](/examples/azureappservice.md)
+  3. A Qualys Subscription
  
 ## Usage
+### Task 1: Use the Azure DevOps Demo Generator to provision the project to your Azure DevOps Org. Use the below GitHub link as source template
+_https://raw.githubusercontent.com/mkhanal1/containersecurityazuredevopsdemo/master/containersecuritydemo.zip_
 
+### Task 2: Import this repository to Azure GIT
 
+### Task 3: Edit your pipeline variables in Variable Groups
+The template file has these 9 variables.
+  QUALYS_API_SERVER:
+  QUALYS_PASSWORD:
+  QUALYS_USERNAME:
+  QUALYS_WAS_PROFILEID:
+  SENSOR_ACTIVATION_ID:
+  SENSOR_CUSTOMER_ID:
+  WEBAPP_PASSWORD:
+  WEBAPP_USERNAME:
+  SENSOR_LOCATION:
