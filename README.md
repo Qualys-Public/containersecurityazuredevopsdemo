@@ -21,15 +21,15 @@ _https://raw.githubusercontent.com/mkhanal1/containersecurityazuredevopsdemo/mas
 **Task 3:** Edit your pipeline variables in Variable Groups
 The template file has these 9 variables.
 
-  1.**QUALYS_API_SERVER:** 
-  2. **QUALYS_PASSWORD:**
-  3. **QUALYS_USERNAME:**
-  4. **QUALYS_WAS_PROFILEID:**
-  5. **SENSOR_ACTIVATION_ID:**
-  6. **SENSOR_CUSTOMER_ID:**
-  7. **WEBAPP_PASSWORD:**
-  8. **WEBAPP_USERNAME:**
-  9. **SENSOR_LOCATION:**
+  *. **QUALYS_API_SERVER:** "Qualys baseurl for CS API"
+  *. **QUALYS_PASSWORD:** "Qualys password to call CS API"
+  *. **QUALYS_USERNAME:** "Qualys username to call CS API"
+  *. **QUALYS_WAS_PROFILEID:** "Option Profile Id"
+  *. **SENSOR_ACTIVATION_ID:** " Activation Id for the container sensor"
+  *. **SENSOR_CUSTOMER_ID:** "Qualys subscription’s customerId"
+  *. **WEBAPP_PASSWORD:** "Password for the Webapp"
+  *. **WEBAPP_USERNAME:** "username for the Webapp"
+  *. **SENSOR_LOCATION:** "Path to download the sensor. Eg: https://<<storage-account>>.blob.core.windows.net/<<container-name>>/QualysContainerSensor.tar"
   
 **Task 4:** Edit the Build Pipeline
 
