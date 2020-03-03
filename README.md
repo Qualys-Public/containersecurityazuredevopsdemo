@@ -21,6 +21,8 @@ _https://raw.githubusercontent.com/mkhanal1/containersecurityazuredevopsdemo/mas
 
 **Task 2:** Import this repository to Azure GIT
 
+![Image3](/images/3.png?raw=true)
+
 
 **Task 3:** Edit your pipeline variables in Variable Groups
 The template file has these 9 variables.
