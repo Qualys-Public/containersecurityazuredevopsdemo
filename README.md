@@ -50,6 +50,8 @@ The template file has these 9 variables.
     Azure subscription | Name of service connection | select the Azure subscription from the list and click 'Authorize'. |
     Azure Container Registry | Name of the registry | The container image will be built and pushed to this container registry in the selected Azure Subscription |
   
+  ![Image4](/images/4.png?raw=true)
+  
   * Select the Task **Push an image**
   
     Use the same parameters as described in Task "Build an image"
@@ -68,6 +70,8 @@ The template file has these 9 variables.
     Repository | Name of repository | repository where the container images are stored | 
     Resource group | Name of Resource Group| the Azure Resource group that contains the Azure App Service specified |
     Slot | Name of slot | an existing Slot other than the Production slot |
+  
+    ![Image5](/images/5.png?raw=true)
   
   * Select the Task **Deploy Azure App Service to Slot**
   
