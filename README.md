@@ -1,11 +1,11 @@
 # ContainerSecurityAzureDevOpsDemo
-Demo to showcase scanning of images during build pipeline before being pushed to the registry for deployment in Azure Web Apps and Scanning of Web Apps
+Demo to showcase scanning of images during build pipeline using Qualys Container Security (CS) before being pushed to the registry for deployment in Azure Web Apps and Scanning of Web Apps using Qualys Web Application Scanning (WAS) before swapping it to production
 
 ## License
 _**THIS SCRIPT IS PROVIDED TO YOU "AS IS."  TO THE EXTENT PERMITTED BY LAW, QUALYS HEREBY DISCLAIMS ALL WARRANTIES AND LIABILITY FOR THE PROVISION OR USE OF THIS SCRIPT.  IN NO EVENT SHALL THESE SCRIPTS BE DEEMED TO BE CLOUD SERVICES AS PROVIDED BY QUALYS**_
 
 ## Description
-The aim of this repository is to build a solution which will help you onboard multiple projects or all projects within an organization to Qualys CloudView. We have built a python program which will perform this solution.
+The aim of this repository is to build a solution which will help you understand how Qualys CS and WAS can be used to detect vulnerabilities in the Container Image and Web applications built from it.
 
 This repository contains ==>
 
